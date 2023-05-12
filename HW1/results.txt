@@ -1,0 +1,24 @@
+My Linear Regression model:
+slope: 0.04126351922137694
+intercept: 0.4974172123387971
+t-stat: 0.40470741179866687
+rse: 0.2972021688887678
+r-squared: 0.0016025509819358463
+Sklearn Linear Regression Model:
+slope: 0.11897964612499878
+intercept: 0.45570716927323907
+t-stat: 0.5033607971886186
+rse: 0.6820766619271519
+r-squared: -0.06515325991823095
+Optimization:
+g(beta_0, beta_1):
+slope: -0.04085094629311373
+intercept: 0.49762317742958484
+l1(beta_0, beta_1):
+slope: -0.03659467115404499
+intercept: 0.49250140142879334
+Conclusions:
+All of the different models give very similar results. None are great at estimating the values, 
+but it is difficult to do this with a random dataset. All models estimate a line that has a slope 
+of around 0 and an intercept of around 0.5. This creates a horizontal line across the middle of 
+the scatterplot. These results are as expected for a random dataset.
