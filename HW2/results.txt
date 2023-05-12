@@ -1,0 +1,8 @@
+Logistic Regression Score: 0.8883977900552487
+Decision Tree Score: 0.8640883977900552
+Random Forest Score: 0.8994475138121547
+SVC Score: 0.8906077348066298
+Conclusions:
+1. All of the  classifiers had similar accuracy scores, all consistently falling above 0.85. These are all pretty high accuracy scores, showing that they are all effective at predicting if the client will subscribe to the term deposit. The Random Forest Classifier is relatively the strongest model, with an accuracy score of 0.896.
+2. Based on the ROC Curve, we can identify the Decision Tree Classifier as being the strongest model and the Support Vector Classifier as being the weakest. Aside from the Support Vector Classifier, the other models fall in the threshold for being a good model for making this prediction.
+3. The Precision Recall Curve also shows the Decision Tree Classifier as the best and the Support Vector Classifier as the worst. However, none of the models look like great performers on this graph.
